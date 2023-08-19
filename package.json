@@ -1,0 +1,21 @@
+{
+  "name": "aurora",
+  "version": "1.0",
+  "description": "A versatile bot for your server, to help with license creation and managing.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Uix Design",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "mysql2": "^3.4.0"
+  },
+  "imports": {
+    "#events/*": "./events/*",
+    "#commands/*": "./events/commands/*.js"
+  },
+  "type": "module",
+  "nodeVersion": "16.17.0"
+}
